@@ -1,8 +1,8 @@
-package com.common.handler;
+package com.kamelchukov.common.handler;
 
-import com.common.exception.EntityNotFoundException;
-import com.common.exception.IncorrectDataException;
-import com.common.exception.response.ExceptionResponse;
+import com.kamelchukov.common.exception.EntityNotFoundException;
+import com.kamelchukov.common.exception.IncorrectDataException;
+import com.kamelchukov.common.exception.response.ExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

@@ -1,4 +1,4 @@
-package com.common.model.dto.carDto.response;
+package com.kamelchukov.common.model.dto.carDto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

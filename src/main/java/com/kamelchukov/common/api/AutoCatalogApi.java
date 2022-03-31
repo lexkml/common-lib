@@ -9,6 +9,6 @@ import java.util.List;
 @FeignClient(name = "${autocatalogapi.feign.name}", url = "${autocatalogapi.feign.url}")
 public interface AutoCatalogApi {
 
-    @GetMapping("/cars/fullData")
+    @GetMapping(value = "/cars/fullData")
     List<FullDataOfCarResponse> findFullDataAllOfCars();
 }

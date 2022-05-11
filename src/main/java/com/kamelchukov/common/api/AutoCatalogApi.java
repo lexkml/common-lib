@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient(name = "${autocatalogapi.feign.name}", url = "${autocatalogapi.feign.url}")
+@FeignClient(name = "${autocatalogcatalogapi.feign.name}", url = "${autocatalogcatalogapi.feign.url}")
 public interface AutoCatalogApi {
 
     @GetMapping(value = "/cars/fullData")
